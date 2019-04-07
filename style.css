@@ -10,7 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .box {
@@ -25,12 +28,16 @@ p {
 }
 
 .navbar-brand {
-  background-color: cadetblue;
+  background-color: powderblue;
   padding: 5px;
 }  
 
+.table thead {
+  background-color: powderblue;
+}
+
 .vis-active  {
-  border: teal 3px solid;
+  border: lightseagreen 3px solid;
 }
 
 .white {
