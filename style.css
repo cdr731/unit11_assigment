@@ -27,6 +27,10 @@ p {
 .navbar-brand {
   background-color: cadetblue;
   padding: 5px;
+}  
+
+.vis-active  {
+  border: teal 3px solid;
 }
 
 .vis-thumbs {
@@ -48,4 +52,13 @@ p {
   margin-left: 15px;
   margin-right: 15px;
   float: left;
+}
+
+#vis-image {
+  width: 500px;
+  height: 345px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  align-items: center;
 }
